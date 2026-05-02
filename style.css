@@ -91,7 +91,37 @@ main hr {
 
 .secondSection .box {
   background: white;
-  width: 80vw;
+  width: 75vw;
   height: 1.5px;
-  margin: 30px 0;
+  margin: 50px 0;
+  display: flex;
+}
+
+.secondSection .vertical {
+  background-color: white;
+  height: 100px;
+  width: 1px;
+  margin: 0 105px;
+}
+
+.img-top {
+  width: 35px;
+  position: relative;
+  top: -40px;
+  right: 16px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 70px;
+  right: 2px;
+  width: 150px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 81px;
+  color: gray;
+  width: 140px;
+  font-size: 12px;
 }
