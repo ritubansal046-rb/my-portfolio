@@ -62,6 +62,20 @@ main hr {
   font-size: 2.5rem;
 }
 
+.leftSection .buttons {
+  padding: 30px;
+}
+
+.leftSection .btn {
+  padding: 12px;
+  color: white;
+  background-color: #2f0080;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .rightSection img {
   width: 75%;
 }
@@ -93,7 +107,7 @@ main hr {
   background: white;
   width: 75vw;
   height: 1.5px;
-  margin: 50px 0;
+  margin: 60px 0;
   display: flex;
 }
 
@@ -124,4 +138,40 @@ main hr {
   color: gray;
   width: 140px;
   font-size: 12px;
+}
+
+.footer {
+  background-color: #1a1d2b;
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer > div {
+  width: 245px;
+}
+
+footer .footer-rights {
+  background-color: #1a1d2b;
+  text-align: center;
+  color: gray;
+  padding: 12px 0;
+}
+
+.footer-third img{
+  width: 20px;
+  padding-right: 10px;
+}
+
+.footer-third a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-first div {
+  font-size: 0.9rem;
 }
